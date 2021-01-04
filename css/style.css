@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Kayak Sans";
+  src: url("fonts/Kayak Sans Regular.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  z-index: 1;
+  font-family: "Kayak Sans", sans-serif;
+  color: #000000;
+  background-color: #f4f5f7;
+  font-size: 21px;
+}
+
+.h2 {
+  font: 5rem/7rem "Kayak Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 40px;
+}
+@media (max-width: 1200px) {
+  .h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+@media (max-width: 800px) {
+  .h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
+.h3 {
+  font: 3.5rem/7rem "Kayak Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 25px;
+}
+@media (max-width: 1200px) {
+  .h3 {
+    font-size: 3rem;
+    line-height: 6rem;
+  }
+}
+@media (max-width: 800px) {
+  .h3 {
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+}
+@media (max-width: 500px) {
+  .h3 {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, ul, ol, dl, table, hr, pre, blockquote {
+  margin: 0 0 35px;
+  line-height: 2.6rem;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+input, textarea, select {
+  outline: none;
+}
+
+input,
+textarea {
+  font-size: 1.6rem;
+  color: #585858;
+  padding: 15px 35px;
+  border: none;
+}
+
+input:not([type=submit]),
+textarea {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #9b9a9a;
+}
+
+input[type=submit] {
+  background-color: #5fb709;
+  color: #ffffff;
+  font-size: 2.3rem;
+  border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+header {
+  padding: 200px 0;
+  transform: skew(0deg, -11.77deg);
+  background-color: #f4f5f7;
+}
+
+footer {
+  padding-top: 180px;
+  padding-bottom: 20px;
+  background-color: #262626;
+  position: relative;
+  z-index: 3;
+}
+footer .container {
+  transform: skew(0deg, 0deg);
+}
+
+section {
+  padding: 200px 0;
+  transform: skew(0deg, -11.77deg);
+  z-index: 1;
+}
+section:nth-of-type(even) {
+  background-color: #f4f5f7;
+}
+section:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+section:last-of-type {
+  padding-bottom: 400px;
+}
+
+.container {
+  max-width: 85%;
+  width: 100%;
+  padding: 0px 9px;
+  margin: auto;
+  transform: skew(0deg, 11.77deg);
+}
+
+.flex-part {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.flex-part .text {
+  align-items: center;
+  padding: 100px;
+}
+.flex-part .text a {
+  border-radius: 10%;
+  border: 2px solid #9b9a9a;
+  padding: 10px 35px;
+  margin-right: 2px;
+  background-color: #5fb709;
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+
+/*# sourceMappingURL=style.css.map */
